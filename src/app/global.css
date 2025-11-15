@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input, textarea, select, button {
+    @apply outline-none focus:outline-none;
+  }
+  
+  html {
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
